@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+/* .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: auto;
+    box-shadow: 0 0 16px 4px rgb(0, 0, 0);
+    font-weight: 550;
+    font-size: 14px;
+}
+.logo {
+    padding: 12px ;
+}
+.nav {
+    display: flex; 
+}
+.nav div a {
+    display: inline-block;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+}
+.nav div a:hover {
+    transition: all 1s ease;
+    color: rgb(117, 0, 0);
+    border-bottom: 2px solid rgb(117, 0, 0) ;
+    background-color: whitesmoke;
+} */
+.navbar > a > img {
+    margin: 0 0 0 100px;
+}
+.navbar {
+    box-shadow: 0 0 16px 3px rgb(167, 167, 167);
+}
+.navbar div ul li a:hover {
+    color: crimson;
+    transition: all 0.5s ease;
+}
+.navbar div ul li a {
+    margin: 0 ;
+    font-weight: 600;
+    color: black;
+}
+.logout {
+    color: rgb(0, 0, 0);
+    
+    padding: 3px 10px;
+    border: 2px solid ;
+    border-radius: 20px;
+}
+.logout:hover {
+    text-decoration: none;
+    color: crimson;
+    transition: all 0.5s ease;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+.dashboard {
+    
+    width: 75%;
+    height: 300px;
+}
+.judul {
+    border-bottom: 2px solid rgb(185, 185, 185);
+    width: 87%;
+    height: 50px;
+}
+.judul h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.judul h1 i {
+    color: rgb(0, 0, 0);
+}
+.isi {
+    display: flex;
+    width: 90%; 
+    margin-top: 7px;
+    }
+.isi div {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.isi  div  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.isi  div  h1 {
+    font-size: 50px;
+    font-weight: 600; 
+}
+.isi  div:hover {
+    box-shadow: 0 0 15px 2px rgb(168, 168, 168);
+}
+.jbuku {
+    background-color: crimson; 
+    text-align: left;
+}
+.janggota {
+    background-color: #f1c40f; 
+    text-align: left;
+}
+.jtransaksi {
+    background-color: teal;
+    text-align: left;
+}
+.hal_table {
+    background-color: rgb(236, 236, 236);
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0 0 20px 4px rgb(223, 223, 223) ;
+}
+.hal_table p {
+    font-size: 25px;
+    text-align: left;
+    padding: 0 25px;
+    margin: 12px;
+    font-weight: 500;
+}
+.hal_table p a {
+    float: right;
+    color: black;
+}
+.back {
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+}
+.tabel {
+    width: 96%;
+}
+.tabel tr {
+    height: 50px;
+    border-top: 1.5px solid rgb(206, 206, 206);
+}
+#tr2:nth-child(even){
+    background-color: rgb(236, 236, 236);
+}
+.kotak_tambah {
+    font-family: 'poppins';
+    width: 30%;
+    font-weight: 600;
+}
+.kotak_tambah img {
+    width: 40%;
+}
+.form-control {
+    margin-left: 5px;
+}
+.submit {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to left , crimson , rgb(255, 97, 23));
+    color: white;
+    cursor: pointer;
+}
+.submit:hover {
+    background-position: right;
+}
+
+
+@media screen and (max-width:1000px){
+    .isi {
+        display: flex;
+        width: 90%; 
+        margin-top: 7px;
+        }
+    .isi div {
+        width: 500px;
+        height: 220px;
+        margin: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    .isi  div  a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+    }
+    .isi  div  h1 {
+        font-size: 50px;
+        font-weight: 600; 
+    }
+    .isi  div:hover {
+        box-shadow: 0 0 15px 2px rgb(168, 168, 168);
+    }
+}
+@media screen and (max-width:810px){
+    .isi {
+        display: flex;
+        width: 90%; 
+        margin-top: 7px;
+        flex-direction: column;
+        }
+    .isi div {
+        width: auto;
+        height: 200px;
+        margin: 10px;
+        border-radius: 5px;
+        color: white;
+        flex-direction: row;
+    }
+    .isi  div  a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+    }
+    .isi  div  h1 {
+        font-size: 50px;
+        font-weight: 600; 
+    }
+    .isi  div:hover {
+        box-shadow: 0 0 15px 2px rgb(168, 168, 168);
+    }
+}
